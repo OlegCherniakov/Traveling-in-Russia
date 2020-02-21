@@ -1,0 +1,12 @@
+@import url("__title/additional__title.css");
+@import url("__subtitle/additional__subtitle.css");
+@import url("__conteiner/additional__conteiner.css");
+
+.additional{
+    display: flex;
+    flex-direction: column;
+    min-width: 1184px;
+    margin-top: 102px;
+    margin-left: auto;
+    margin-right: auto;
+}

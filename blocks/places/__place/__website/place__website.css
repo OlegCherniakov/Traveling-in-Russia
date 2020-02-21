@@ -1,0 +1,10 @@
+@import url("_url-heading/place__website_url-heading.css");
+@import url("_url/place__website_url.css");
+
+.place__website {
+    grid-column: 2 / 3;
+  grid-row: 1 / 2;
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+}

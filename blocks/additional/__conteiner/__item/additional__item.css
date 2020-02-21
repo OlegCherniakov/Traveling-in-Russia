@@ -1,0 +1,10 @@
+@import url("__heading-title/additional__heading-title.css");
+@import url("__text/additional__text.css");
+
+.additional__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 284px;
+  height: 330px;
+}

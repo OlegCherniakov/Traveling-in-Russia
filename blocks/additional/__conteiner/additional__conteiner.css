@@ -1,0 +1,12 @@
+@import url("__item/additional__item.css");
+@import url("__item/additional__item-nvr.css");
+
+.additional__conteiner{
+    max-width: 1184px;
+    min-width: 284px;
+    display: grid;
+    grid-gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  grid-template-rows: 1fr;
+  margin-top: 72px;
+}

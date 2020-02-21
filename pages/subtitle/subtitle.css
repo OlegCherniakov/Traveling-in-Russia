@@ -1,0 +1,9 @@
+.subtitle {
+  display: flex;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 0;
+}

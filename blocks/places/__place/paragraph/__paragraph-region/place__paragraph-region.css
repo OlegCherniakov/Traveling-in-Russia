@@ -1,0 +1,8 @@
+.place__paragraph-region {
+    font-size: 18px;
+    line-height: 30px;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    margin-top: 36px;
+  }
+  

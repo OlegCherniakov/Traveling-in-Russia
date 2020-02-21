@@ -1,0 +1,17 @@
+p {
+  margin: 0;
+}
+
+.lead__caption {
+  display: flex;
+  max-width: 636px;
+  justify-content: start;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #ffffff;
+}

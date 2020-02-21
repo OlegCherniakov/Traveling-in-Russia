@@ -1,0 +1,24 @@
+@font-face {
+  font-family: Inter; /* Имя шрифта */
+  font-style: normal;
+  font-weight: normal;
+  src: url(Inter__Web/Inter-Regular.woff2);
+  src: url(Inter__Web/Inter-Regular.woff); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Inter; /* Имя шрифта */
+  font-style: normal;
+  font-weight: bold;
+  src: url(Inter__Web/Inter-Bold.woff);
+  src: url(Inter__Web/Inter-Bold.woff2); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Inter; /* Имя шрифта */
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  src: url(Inter__Web/Inter-Black.woff);
+  src: url(Inter__Web/Inter-Black.woff2); /* Путь к файлу со шрифтом */
+}

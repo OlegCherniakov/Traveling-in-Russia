@@ -1,0 +1,9 @@
+@import url("_text/intro__content-row_text.css");
+@import url("_text_autor/intro__content-row_text_autor.css");
+
+
+.intro__content-row{
+    width: 100%;
+    display: flex;
+    
+}
