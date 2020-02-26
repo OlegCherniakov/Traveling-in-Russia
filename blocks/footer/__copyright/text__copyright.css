@@ -1,0 +1,10 @@
+.text__copyright {
+  width: 282px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  justify-self: end;
+  align-self: center;
+  margin-left: 67px;
+  margin-top: 10px;
+}

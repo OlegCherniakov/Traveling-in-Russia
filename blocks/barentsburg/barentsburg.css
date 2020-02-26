@@ -1,0 +1,11 @@
+@import url("__title/barentsburg__title.css");
+@import url("__coord/barentsburg__coord.css");
+@import url("__map/barentsburg__map.css");
+@import url("__description/barentsburg__description.css");
+
+.barentsburg {
+  max-width: 1184px;
+  margin: 85px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}

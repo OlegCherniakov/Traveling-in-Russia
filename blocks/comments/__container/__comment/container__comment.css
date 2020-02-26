@@ -1,0 +1,9 @@
+@import url("__container-image/comments__container-image.css");
+@import url("__qute-text/comment__qute-text.css");
+@import url("__author/comment__author.css");
+
+.container__comment{
+    display: flex;
+    flex-direction: column;
+    max-width: 382px;
+}

@@ -1,0 +1,9 @@
+@import url("__item/emblem__item.css");
+
+.emblem__items {
+  max-width: 1184px;
+  display: grid;
+  grid-template-columns: repeat(Auto-fit, minmax(208px, 1fr));
+  grid-gap: 35px;
+  justify-content: space-between;
+}

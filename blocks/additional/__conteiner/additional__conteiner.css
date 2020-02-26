@@ -1,11 +1,14 @@
 @import url("__item/additional__item.css");
 @import url("__item/additional__item-nvr.css");
+@import url("__item/item-arak/additional__item-arak.css");
+@import url("__item/__item-cher/additional__item-cher.css");
+@import url("__item/item-nikola/additional__item-nikola.css");
 
-.additional__conteiner{
-    max-width: 1184px;
-    min-width: 284px;
-    display: grid;
-    grid-gap: 16px;
+.additional__conteiner {
+  max-width: 1184px;
+  min-width: 284px;
+  display: grid;
+  grid-gap: 16px;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   grid-template-rows: 1fr;
   margin-top: 72px;

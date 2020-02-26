@@ -1,0 +1,8 @@
+@import url("__description-text/barentsburg__description-text.css");
+@import url("__description-wesite/barentsburg__description-wesite.css");
+
+.barentsburg__description {
+  display: flex;
+  max-width: 782px;
+  margin-top: 48px;
+}
