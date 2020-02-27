@@ -1,5 +1,5 @@
 .link {
-  text-decoration: none;
+  
   opacity: 1;
   transition: all 0.3s ease;
 }
@@ -10,7 +10,4 @@
   text-decoration: underline;
 }
 
-.link::after {
-  color: grey;
-  box-shadow: 0 0 15px rgb(247, 12, 12);
-}
+

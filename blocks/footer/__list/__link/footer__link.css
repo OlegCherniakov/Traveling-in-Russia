@@ -1,3 +1,7 @@
+li {
+  list-style-type: none;
+}
+
 .footer__link {
   font-family: Inter;
   font-style: normal;
@@ -7,7 +11,7 @@
   color: #ffffff;
 
   align-self: center;
-  margin-right: 67px;
+  margin-right: 18px;
 }
 
 .footer__link:nth-child(2) {
