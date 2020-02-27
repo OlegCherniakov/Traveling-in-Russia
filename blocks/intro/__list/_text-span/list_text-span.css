@@ -1,9 +1,8 @@
-.content-row__span-accent {
+.list_text-span {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
-  line-height: 16px;
-
+  font-size: 13px;
+  line-height: 20px;
   color: #ffffff;
 }

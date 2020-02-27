@@ -1,6 +1,5 @@
-.intro__list_text{
-    list-style-type: none;
-    
+@import url("_text-span/list_text-span.css");
+
+.intro__list_text {
+  list-style-type: none;
 }
-
-
