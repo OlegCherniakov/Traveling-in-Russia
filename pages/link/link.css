@@ -4,7 +4,7 @@
   transition: all 0.3s ease;
 }
 
-.link:active {
+.link:hover {
   opacity: 0.5;
   color: rgba(201, 203, 206, 0.658);
   text-decoration: underline;
