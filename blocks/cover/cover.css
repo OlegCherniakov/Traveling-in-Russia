@@ -8,7 +8,7 @@
   margin: 102px auto 0 auto;
   width: 1184px;
   height: 594px;
-  background-image: url(/foto/cover.jpg);
+  background-image: url(../../foto/cover.jpg);
   position: relative;
   z-index: 0;
 }

@@ -2,9 +2,10 @@
 @import url("_url/place__website_url.css");
 
 .place__website {
-    grid-column: 2 / 3;
+  max-width: max-content;
+  grid-column: 2 / 3;
   grid-row: 1 / 2;
-    margin-top: 87px;
-    display: flex;
-    flex-direction: column;
+  margin-top: 87px;
+  display: flex;
+  flex-direction: column;
 }

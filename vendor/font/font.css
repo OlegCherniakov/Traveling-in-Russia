@@ -22,3 +22,11 @@
   src: url(Inter__Web/Inter-Black.woff);
   src: url(Inter__Web/Inter-Black.woff2); /* Путь к файлу со шрифтом */
 }
+
+@font-face {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  src: url(Inter__Web/Inter-Medium.woff);
+  src: url(Inter__Web/Inter-Medium.woff2); /* Путь к файлу со шрифтом */
+}

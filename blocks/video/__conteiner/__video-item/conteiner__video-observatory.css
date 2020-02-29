@@ -5,5 +5,5 @@
 @import url("__rect/item__rect.css");
 
 .conteiner__video-observatory {
-  background-image: url(/foto/observatory.jpg);
+  background-image: url(../../../../foto/observatory.jpg);
 }

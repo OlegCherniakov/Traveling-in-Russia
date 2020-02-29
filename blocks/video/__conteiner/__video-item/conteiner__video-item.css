@@ -5,6 +5,5 @@
 @import url("__rect/item__rect.css");
 
 .conteiner__video-item {
-  background-image: url(/foto/kamchatka.jpg);
+  background-image: url(../../../../foto/kamchatka.jpg);
 }
-
