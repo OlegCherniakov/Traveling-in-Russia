@@ -5,7 +5,7 @@
   max-width: max-content;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
-  margin-top: 87px;
+  justify-content: flex-end;
   display: flex;
   flex-direction: column;
 }
