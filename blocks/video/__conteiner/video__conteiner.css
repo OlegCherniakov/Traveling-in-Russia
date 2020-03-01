@@ -1,5 +1,6 @@
 @import url("__video-item/conteiner__video-item.css");
 @import url("__video-item/conteiner__video-observatory.css");
+@import url("__item-link/video__item-link.css");
 
 .video__conteiner {
   max-width: 1184px;
@@ -7,5 +8,5 @@
   grid-gap: 18px;
   grid-template-columns: repeat(auto-fit, minmax(583px, 1fr));
   grid-template-rows: 1fr;
-  
 }
+
