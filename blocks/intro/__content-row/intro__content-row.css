@@ -1,5 +1,4 @@
-@import url("_text/intro__content-row_text.css");
-@import url("__contenr-row_autor/intro__contenr-row_autor.css");
+@import url("__contenr-row_autor/intro__autor.css");
 
 .intro__content-row {
   width: 100%;
