@@ -18,6 +18,10 @@
 @import url("../blocks/barentsburg/barentsburg.css");
 @import url("../blocks/footer/footer.css");
 
+body{
+  background-color: #2a2c2f;
+}
+
 .page {
   display: flex;
   flex-direction: column;
@@ -26,5 +30,5 @@
   margin-right: auto;
   margin-left: auto;
   max-width: 1440px;
-  background-color: #2a2c2f;
+  
 }

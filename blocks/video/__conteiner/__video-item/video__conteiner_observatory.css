@@ -1,11 +1,11 @@
-@import url("__item/item__icon_play.css");
+@import url("__item/video__item_icon-play.css");
 @import url("__title/item__title.css");
 @import url("__duration/item__duration.css");
 @import url("__subtitle/item__subtitle.css");
 @import url("__rect/item__rect.css");
 
-.conteiner__video-item {
-  background-image: url(../../../../foto/kamchatka.jpg);
+.video__conteiner_observatory {
+  background-image: url(../../../../foto/observatory.jpg);
   border-radius: 5px;
   max-width: 583px;
   display: block;
@@ -16,11 +16,12 @@
   opacity: 0;
 }
 
-.conteiner__video-item::before {
+.video__conteiner_observatory::before {
   content: "";
   display: block;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
+  border-radius: 5px;
   top: 0;
   left: 0;
   width: 100%;
@@ -28,8 +29,9 @@
   z-index: 2;
 }
 
-.conteiner__video-item:hover::before {
+.video__conteiner_observatory:hover::before {
   background-color: rgba(0, 0, 0, 0.8);
   transition: 0.1s linear;
   z-index: 2;
+  border-radius: 5px;
 }

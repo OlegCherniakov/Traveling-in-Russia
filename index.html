@@ -182,7 +182,7 @@
           -->
           <h2 class="title places__title">Куршская коса</h2>
           <!-- Нужно исправить: здесь title - это элемент блока place. А самого блока place нет =( -->
-          <div class="places__place_website">
+          <div class="places__place-website"> <!--откорректировать-->
             <!-- Нужно исправить: здесь website - это элемент блока place. А самого блока place нет =( -->
             <p class="places__url-heading">URL</p>
             <a href="http://park-kosa.ru/" class="link places__url"
@@ -218,7 +218,7 @@
 
         <div class="places__place">
           <h2 class="title places__title">Кольский</h2>
-          <div class="places__place_website">
+          <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <a
               href="https://poehali.club/na-kolskij-poluostrov-s-national-geographic-rossiya/"
@@ -248,7 +248,7 @@
 
         <div class="places__place">
           <h2 class="title places__title">Алтай</h2>
-          <div class="places__place_website">
+          <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <a
               href="https://www.facebook.com/altairegion22/"
@@ -277,7 +277,7 @@
 
         <div class="places__place">
           <h2 class="title places__title">Зимний Байкал</h2>
-          <div class="places__place_website">
+          <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <a href="https://vk.com/baikalmile" class="link places__url"
               >https://vk.com/baikalmile</a
@@ -307,7 +307,7 @@
 
         <div class="places__place">
           <h2 class="title places__title">Карелия</h2>
-          <div class="places__place_website">
+          <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <a href="http://vodlozero.ru/" class="link places__url"
               >http://vodlozero.ru/</a
@@ -338,14 +338,14 @@
         </h3>
         <div class="video__conteiner">
           <a href="https://vimeo.com/81106671" class="video__item-link">
-            <div class="conteiner conteiner__video-item">
-              <!-- Нужно исправить: блок не может быть элементов самого же себя. -->
+            <div class="conteiner video__conteiner_item">
+              <!-- Нужно исправить: блок не может быть элементов самого же себя. +++corrected-->
               <img
                 src="foto/icon_play.svg"
                 alt="Иконка Пуск"
-                class="item__icon_play"
+                class="video__item_icon-play"
               />
-              <!-- Нужно исправить: БЭМ сущность содержит в себе только модификатор -->
+              <!-- Нужно исправить: БЭМ сущность содержит в себе только модификатор +++corrected-->
               <div class="item__rect">
                 <p class="item__duration">6:30</p>
                 <h3 class="title item__title">Colors of Kamchatka</h3>
@@ -356,14 +356,14 @@
             </div>
           </a>
           <a href="https://vimeo.com/290675450" class="video__item-link">
-            <div class="conteiner conteiner__video-observatory">
-              <!-- Нужно исправить: блок не может быть элементов самого же себя. -->
+            <div class="conteiner video__conteiner_observatory">
+              <!-- Нужно исправить: блок не может быть элементов самого же себя. +++corrected-->
               <img
                 src="foto/icon_play.svg"
                 alt="Иконка Пуск"
-                class="item__icon_play"
+                class="video__item_icon-play"
               />
-              <!-- Нужно исправить: БЭМ сущность содержит в себе только модификатор -->
+              <!-- Нужно исправить: БЭМ сущность содержит в себе только модификатор +++corrected-->
               <div class="item__rect">
                 <p class="item__duration">24:45</p>
                 <h3 class="title item__title">Обсерватория | Observatory</h3>
@@ -377,7 +377,7 @@
           <!-- 
             Нужно исправить:
             При затемнении фона текст и иконка должены оставаться белыми.
-            Затемнение лучше делать с помощью псевдоэлементов (::before или ::after) +++исправил... да уж...
+            Затемнение лучше делать с помощью псевдоэлементов (::before или ::after) +++исправил... да уж... жесть
           -->
         </div>
       </div>
@@ -529,8 +529,8 @@
       </div>
       <div class="barentsburg">
         <h2 class="title barentsburg__title">Баренцбург</h2>
-        <p class="text barentsburg__coord">78.0648° с.ш. 14.2335° в.д.</p>
-        <!-- можно лучше: для значка градусов тоже есть мнемоник - &deg; -->
+        <p class="text barentsburg__coord">78.0648&deg; с.ш. 14.2335&deg; в.д.</p>
+        <!-- можно лучше: для значка градусов тоже есть мнемоник - &deg; +++ исправил-->
         <img src="foto/map.jpg" alt="Фото крты" class="barentsburg__map" />
         <div class="barentsburg__description">
           <p class="text barentsburg__description-text">
@@ -548,8 +548,8 @@
         </div>
       </div>
       <footer class="footer">
-        <p class="text text__copyright">&copy; 2020. Олег Черняков</p>
-        <!-- Нужно исправить: блок не может быть элементом самого себя =( -->
+        <p class="text footer__text-copyright">&copy; 2020. Олег Черняков</p>
+        <!-- Нужно исправить: блок не может быть элементом самого себя =( +++corrected-->
         <ul class="footer__list">
           <li>
             <a
@@ -599,8 +599,7 @@
   Ну и с БЭМ модификаторами ещё есть проблемы.
   Обязательно нужно разобраться чем элемент отличается от модификатора. И чем простой модификатор отличается от обычного.
   БЭМ штука не простая, да. Но разобраться с ним нужно, т.к. он применятся буквально везде. Чуть ли не на каждом сайте.
-  Если сделать правильную nested структуру папок и файлов по БЭМ, то это тоже поможет лучше понять БЭМ.
-
+  Если сделать правильную nested структуру папок и файлов по БЭМ, то это тоже поможет лучше понять БЭМ.  ++++структуру папок (переименование) черех vs code не могу сделать((( программа зависает... пожалуйста, в следующей работе учту
 
 
   Можно лучше:
@@ -608,7 +607,7 @@
     Хорошо бы один из них удалить, чтобы не путал.
 
     ++++ не совсем понял. У меня же шрифты поключаются в вендере
-    В vendor у вас сейчас два .css файла - inter.css и font.css. Один из них явно лишний.
+    В vendor у вас сейчас два .css файла - inter.css и font.css. Один из них явно лишний. +++исправил
 
   - Если просто скопировать из фигмы все отступы, размеры шрифтов, высоты строк и всё прочее, то на выходе работа всё равно будет отличаться от того, что нарисовано в фигме.
     Чтобы проверить насколько ваша работа на самом деле отличается от того, что нарисовано в фигме можно воспользоваться плагином для хрома - https://chrome.google.com/webstore/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi

@@ -1,7 +1,7 @@
 @import url("_url-heading/places__url-heading.css");
 @import url("_url/places__url.css");
 
-.places__place_website {
+.places__place-website {
   max-width: max-content;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
