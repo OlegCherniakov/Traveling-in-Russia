@@ -1,8 +1,0 @@
-@import url("__link/description__link.css");
-@import url("__url-heading/description__url-heading.css");
-
-.barentsburg__description-wesite {
-  display: flex;
-  flex-direction: column;
-  margin-left: 120px;
-}
