@@ -1,6 +1,6 @@
 @import url("__title/video__title.css");
 @import url("__subtitle/video__subtitle.css");
-@import url("__conteiner/video__conteiner.css");
+@import url("__block/video__blok.css");
 
 .video {
   max-width: 1184px;

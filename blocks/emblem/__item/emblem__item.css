@@ -1,0 +1,9 @@
+
+
+.emblem__item {
+  max-width: 208px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}

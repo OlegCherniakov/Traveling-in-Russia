@@ -1,0 +1,11 @@
+@import url("_bg/block__item_bg_kamchatka.css");
+@import url("_bg/block__item_bg_observatory.css");
+
+
+.block__item{  
+padding-top: 30px;
+padding-bottom: 30px;
+
+}
+
+/**/

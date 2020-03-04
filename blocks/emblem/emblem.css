@@ -1,5 +1,8 @@
 @import url("__title/emblem__title.css");
 @import url("__items/emblem__items.css");
+@import url("__item/emblem__item.css");
+@import url("__image/emblem__image.css");
+@import url("__city/emblem__city.css");
 
 .emblem {
   width: 82%;
