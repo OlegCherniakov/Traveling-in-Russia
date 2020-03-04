@@ -1,13 +1,10 @@
-.container__author{
-    margin-top: 24px;
- 
-font-family: Inter;
-font-style: normal;
-font-weight: 900;
-font-size: 14px;
-line-height: 24px;
+.container__author {
+  margin-top: 13px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 24px;
 
-color: #FFFFFF;
-
-
+  color: #ffffff;
 }

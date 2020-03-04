@@ -5,12 +5,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 102px auto 0 auto;
+  margin: 91px auto 0 auto;
   width: 1184px;
   height: 594px;
   background-image: url(../../foto/cover.jpg);
   position: relative;
   z-index: 0;
+  text-decoration: none;
 }
 
 .cover::before {

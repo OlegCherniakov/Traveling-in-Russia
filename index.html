@@ -145,12 +145,11 @@
           alt="Красивая природа России"
           class="photo__grid"
         />
-      <!-- 
+        <!-- 
         Просто информация: 
         Заметил сейчас в стилях блока photo какой-то странный width: 82%.
         Кажется, что его нужно удалить.+++ можно не буду? Он задаёт ширину
-      -->
-      </div>
+      --></div>
       <div class="places">
         <div class="places__place">
           <h2 class="title places__title">Куршская коса</h2>
@@ -296,50 +295,52 @@
           фундаментальные исследования
         </h3>
         <div class="block video__block">
-          <a href="https://vimeo.com/81106671" class="bloсk__item block__item_bg_kamchatka">
-            
-              <!-- 
+          <a
+            href="https://vimeo.com/81106671"
+            class="bloсk__item block__item_bg_kamchatka"
+          >
+            <!-- 
                 Нужно исправить: 
                 на теге не может быть модификатор без блока\элемента, который этим модификатором модифицируется.
                 video__conteiner_item - это модификатор элемента video__container. Соответственно этот див должен быть элементом video__container +++исправил
               -->
-              <img
-                src="foto/icon_play.svg"
-                alt="Иконка Пуск"
-                class="block__icon-play"
-              />
-              <!-- Нужно исправить: БЭМ сущность содержит в себе только модификатор. Это замечание не исправлено+++исправил -->
-              <div class="block__rect">
-                <p class="block__duration">6:30</p>
-                <h3 class="title block__title">Colors of Kamchatka</h3>
-                <p class="subtitle block__subtitle">
-                  Director: Pavel Karykhalin
-                </p>
+            <img
+              src="foto/icon_play.svg"
+              alt="Иконка Пуск"
+              class="block__icon-play"
+            />
+            <!-- Нужно исправить: БЭМ сущность содержит в себе только модификатор. Это замечание не исправлено+++исправил -->
+            <div class="block__rect">
+              <p class="block__duration">6:30</p>
+              <h3 class="title block__title">Colors of Kamchatka</h3>
+              <p class="subtitle block__subtitle">
+                Director: Pavel Karykhalin
+              </p>
               <!-- 
                 Нужно исправить: 
                 В этом диве несколько элементов блока item, но самого блока item на странице нет.
                 Это ошибка по БЭМ. Во втором видео эта ошибка повторяется. +++исправил
               -->
-              </div>
-            
+            </div>
           </a>
-          <a href="https://vimeo.com/290675450" class="bloсk__item block__item_bg_observatory">
-            
-              <!-- Нужно исправить: Здесь проблема из первого видео повторяется. +++исправил-->
-              <img
-                src="foto/icon_play.svg"
-                alt="Иконка Пуск"
-                class="block__icon-play"
-              />
-              <!-- Нужно исправить: Здесь проблема из первого видео повторяется.  +++исправил-->
-              <div class="block__rect">
-                <p class="block__duration">24:45</p>
-                <h3 class="title block__title">Обсерватория | Observatory</h3>
-                <p class="subtitle block__subtitle">
-                  Director: Alexander Khudokon
-                </p>
-              </div>
-            
+          <a
+            href="https://vimeo.com/290675450"
+            class="bloсk__item block__item_bg_observatory"
+          >
+            <!-- Нужно исправить: Здесь проблема из первого видео повторяется. +++исправил-->
+            <img
+              src="foto/icon_play.svg"
+              alt="Иконка Пуск"
+              class="block__icon-play"
+            />
+            <!-- Нужно исправить: Здесь проблема из первого видео повторяется.  +++исправил-->
+            <div class="block__rect">
+              <p class="block__duration">24:45</p>
+              <h3 class="title block__title">Обсерватория | Observatory</h3>
+              <p class="subtitle block__subtitle">
+                Director: Alexander Khudokon
+              </p>
+            </div>
           </a>
         </div>
       </div>
@@ -402,7 +403,7 @@
         </h3>
         <div class="container comments__container">
           <div class="container__comment">
-          <!-- Нужно исправить: container__comment - это элемент блока container, а самого блока container на странице нет. Это ошибка по БЭМ. В остальных комментариях эта ошибка повторяется. -->
+            <!-- Нужно исправить: container__comment - это элемент блока container, а самого блока container на странице нет. Это ошибка по БЭМ. В остальных комментариях эта ошибка повторяется. -->
             <img
               src="foto/lyagushkin.jpg"
               alt="Фотография Лягушкина"
@@ -413,12 +414,11 @@
               выгляньте “наружу”…»
             </p>
             <p class="container__author">Виктор Лягушкин</p>
-          <!-- 
+            <!-- 
             Нужно исправить: 
             В этом диве несколько элементов блока comment, но самого блока comment на странице нет.
             Это ошибка по БЭМ. В остальных комментариях эта ошибка повторяется. ++++corected
-          -->
-          </div>
+          --></div>
 
           <div class="container__comment">
             <img
@@ -462,17 +462,29 @@
         </h2>
         <div class="emblem__items">
           <div class="emblem__item">
-            <img src="foto/nvg.png" alt="Герб Новгорода" class="emblem__image" />
+            <img
+              src="foto/nvg.png"
+              alt="Герб Новгорода"
+              class="emblem__image"
+            />
             <p class="emblem__city">Великий Новгород</p>
             <!-- Нужно исправить: item__image и item__city - это элементы блока item, а самого блока item на странице нет. 
               Это ошибка по БЭМ. В остальных гербах эта ошибка повторяется.++++corected -->
           </div>
           <div class="emblem__item">
-            <img src="foto/rostov.png" alt="Герб Ростова" class="emblem__image"/>
+            <img
+              src="foto/rostov.png"
+              alt="Герб Ростова"
+              class="emblem__image"
+            />
             <p class="emblem__city">Ростов Великий</p>
           </div>
           <div class="emblem__item">
-            <img src="foto/tambov.png" alt="Герб Тамбова" class="emblem__image"/>
+            <img
+              src="foto/tambov.png"
+              alt="Герб Тамбова"
+              class="emblem__image"
+            />
             <p class="emblem__city">Тамбов</p>
           </div>
           <div class="emblem__item">
@@ -509,7 +521,6 @@
             >
             <!-- Нужно исправить: description__url-heading и description__link - это элементы блока description, а самого блока description на странице нет. 
               Это ошибка по БЭМ.+++corected -->
-
           </div>
         </div>
       </div>
