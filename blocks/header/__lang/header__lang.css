@@ -3,7 +3,7 @@ a {
 }
 
 .header__lang {
-  display: flex;
+  
   width: 30px;
   height: 23px;
   color: white;
@@ -13,8 +13,7 @@ a {
   font-size: 24px;
   line-height: 23px;
   text-align: right;
-  margin-top: 17px;
-  margin-right: 18px;
+  margin: 17px 18px 0 0;
   text-decoration: none;
 }
 
