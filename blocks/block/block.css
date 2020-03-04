@@ -1,0 +1,15 @@
+@import url("__item/block__item.css");
+@import url("__icon-play/block__icon-play.css");
+@import url("__rect/block__rect.css");
+@import url("__duration/block__duration.css");
+@import url("__title/block__title.css");
+@import url("__subtitle/block__subtitle.css");
+
+
+.block{
+    max-width: 1184px;
+    display: grid;
+    grid-gap: 18px;
+    grid-template-columns: repeat(auto-fit, minmax(583px, 1fr));
+    grid-template-rows: 1fr;
+}
