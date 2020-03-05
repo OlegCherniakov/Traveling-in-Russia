@@ -9,7 +9,8 @@
 .places__place {
     max-width: 984px;
     display: grid;
-    grid-template-columns: 460px 484px;   
+    grid-template-columns: repeat(auto-fit, minmax(460px, 1fr));  
+    
     grid-column-gap: 40px;
     grid-row-gap: 60px;
     margin-top: 83px;
