@@ -3,11 +3,11 @@
 .places {
   max-width: 984px;
   width: 68%;
+  display: flex;
+  flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  
 }
-
 
 @media screen and (max-width: 320px) {
   .places {

@@ -2,7 +2,7 @@
 
 .photo {
   display: grid;
-    width: 82%;
+  width: 82%;
   object-fit: cover;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   grid-template-rows: repeat(3, 1fr);
@@ -13,8 +13,6 @@
   margin-right: auto;
   margin-bottom: 20px;
 }
-
-
 
 @media screen and (max-width: 320px) {
   .photo {
