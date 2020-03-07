@@ -1,40 +1,56 @@
-
-
 .block__item_bg_observatory {
-  max-width: 583px;
-  height: 323px;
+  width: 100%;
+  height: auto;
   border-radius: 5px;
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../../../../foto/observatory.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../../../../foto/observatory.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  padding: 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+
+  object-fit: cover;
   text-decoration: none;
-  
-  position: relative;
-  padding: 30px;
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-flex-direction: column;
-width: 100%;
-height: 323px;
-object-fit: cover;
-max-width: 583px;
-text-decoration: none;
-transition: all 0.3s ease;
-  position: relative;
-  padding: 30px;
-    box-sizing: border-box;
-    width: 100%;
-    justify-content: space-between;
+  transition: all 0.3s ease;
+
+  justify-content: space-between;
 }
 
 .block__item_bg_observatory:hover {
-  background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../../../../foto/observatory.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(../../../../foto/observatory.jpg);
 }
- 
- 
- /* background-image: url(../../../../foto/observatory.jpg);
+
+@media screen and (max-width: 320px) {
+  .block__item_bg_observatory {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .block__item_bg_observatory {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 424px) {
+  .block__item_bg_observatory {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .block__item_bg_observatory {
+    padding: 24px;
+  }
+}
+
+/* background-image: url(../../../../foto/observatory.jpg);
   border-radius: 5px;
   max-width: 583px;
   display: block;
