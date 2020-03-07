@@ -1,7 +1,27 @@
 .comments__subtitle {
-max-width: 640px;
-  font-size: 24px;
-  line-height: 35px;
+  max-width: 640px;
+  font-size: 1.5rem;
+  line-height: 1.4;
   text-align: center;
-margin: 38px auto 0 auto;
+  margin: 48px auto 0 auto;
+}
+@media screen and (max-width: 320px) {
+  .comments__subtitle {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .comments__subtitle {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 424px) {
+  .comments__subtitle {
+    font-size: 1rem;
+    line-height: 1.1;
+  }
 }

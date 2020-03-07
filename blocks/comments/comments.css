@@ -5,8 +5,41 @@
 .comments {
   display: flex;
   flex-direction: column;
-  max-width: 1184px;
-  margin-top: 112px;
+  width: calc(100% - 256px);
+  margin-top: 102px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 320px) {
+  .comments {
+    width: calc(100% - 32px);
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .comments {
+    width: calc(100% - 32px);
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 424px) {
+  .comments {
+    width: calc(100% - 32px);
+    margin-top: 64px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .comments {
+    width: calc(100% - 108px);
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .comments {
+    width: calc(100% - 96px);
+  }
 }
