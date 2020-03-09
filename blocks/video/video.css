@@ -44,8 +44,10 @@
   }
 }
 
-@media screen and (min-width: 1025px) and (max-width: 1280) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .video {
     width: calc(100% - 96px);
   }
 }
+
+
