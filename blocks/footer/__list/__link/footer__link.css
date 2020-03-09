@@ -6,8 +6,8 @@ li {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 41px;
+  font-size: 1.5rem;
+  line-height: 1.7;
   color: #ffffff;
 
   align-self: center;
@@ -16,4 +16,45 @@ li {
 
 .footer__link:nth-child(2) {
   margin: 0px;
+}
+
+
+@media screen and (max-width: 320px) {
+  .footer__text-copyright {
+    text-align: left;
+margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .footer__link {
+    text-align: left;
+    margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 424px) {
+  .footer__link {
+    text-align: left;
+margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 1020px) {
+  .footer__link {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1024px) {
+  .footer__link {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280) {
+  .footer__link {
+    width: calc(100% - 96px);
+  }
 }
