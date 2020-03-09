@@ -6,7 +6,7 @@
 .lead {
   display: flex;
   max-width: 985px;
-  width: 68%;
+  width: calc (100% - 454);
   flex-direction: column;
   align-content: center;
   margin-left: auto;
@@ -48,7 +48,7 @@
   }
 }
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
   .lead {
     width: calc(100% - 294px);
   }
