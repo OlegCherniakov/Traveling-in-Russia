@@ -15,6 +15,7 @@
   .footer {
     flex-direction: column-reverse;
     margin-left: 16px;
+    margin-top: 64px;
   }
 }
 
@@ -22,6 +23,7 @@
   .footer {
     flex-direction: column-reverse;
     margin-left: 16px;
+    margin-top: 64px;
   }
 }
 
@@ -29,6 +31,7 @@
   .footer {
     flex-direction: column-reverse;
     margin-left: 16px;
+    margin-top: 64px;
   }
 }
 

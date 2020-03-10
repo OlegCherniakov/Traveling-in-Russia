@@ -7,6 +7,8 @@
   justify-content: center;
   z-index: 1;
   position: relative;
+  box-sizing: border-box;
+  padding: 0 69px;
 }
 
 @media screen and (max-width: 320px) {
@@ -21,6 +23,7 @@
   .cover__title {
     font-size: 2rem;
     line-height: 1.1;
+    margin-top: 104px;
   }
 }
 
@@ -29,4 +32,10 @@
     font-size: 2rem;
     line-height: 1.1;
   }
+}
+@media screen and (min-width: 425px) and (max-width: 769px) {
+  .cover__title {
+    margin-top: 204px;
+    font-size: 3rem;
+      }
 }

@@ -12,6 +12,8 @@
   .cover__subtitle {
     font-size: 0.875rem;
     line-height: 1.44;
+    margin-top: 7px;
+    margin-bottom: 24px;
   }
 }
 
@@ -19,6 +21,9 @@
   .cover__subtitle {
     font-size: 0.875rem;
     line-height: 1.44;
+    margin-top: 7px;
+    margin-bottom: 24px;
+    
   }
 }
 
@@ -26,5 +31,19 @@
   .cover__subtitle {
     font-size: 0.875rem;
     line-height: 1.44;
+  }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 1024px) {
+  .cover__subtitle {
+    margin-top: 84px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 769px) {
+  .cover__subtitle {
+    margin-top: 84px;
+    margin-bottom: 40px;
   }
 }
