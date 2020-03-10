@@ -12,13 +12,16 @@
 @media screen and (max-width: 320px) {
   .block__duration {
     margin-top: 49px;
+    font-size: 0.75rem;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
   .block__duration {
     margin-top: 41px;
+    font-size: 0.75rem;
   }
+  
 }
 
 @media screen and (min-width: 376px) and (max-width: 424px) {

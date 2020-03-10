@@ -5,6 +5,13 @@
   font-weight: 900;
   font-size: 0.875rem;
   line-height: 1.4;
-
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .container__author {
+    order: 2;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

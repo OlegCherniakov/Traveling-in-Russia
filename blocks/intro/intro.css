@@ -3,7 +3,7 @@
 @import url("__content-row/intro__content-row.css");
 @import url("__list/intro__list.css");
 @import url("__list/intro__list-text.css");
-@import url("__text/intro__text.css");
+@import url("__content-row/__text/intro__text.css");
 
 .intro {
   display: flex;
@@ -17,11 +17,11 @@
   margin-bottom: 0;
 }
 
-
 @media screen and (max-width: 320px) {
   .intro {
     width: calc(100% - 32px);
     height: auto;
+    margin-top: 64px;
   }
 }
 
@@ -29,6 +29,7 @@
   .intro {
     width: calc(100% - 32px);
     height: auto;
+    margin-top: 64px;
   }
 }
 
@@ -36,6 +37,7 @@
   .intro {
     width: calc(100% - 32px);
     height: auto;
+    margin-top: 64px;
   }
 }
 

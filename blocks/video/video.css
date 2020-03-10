@@ -1,6 +1,6 @@
 @import url("__title/video__title.css");
 @import url("__subtitle/video__subtitle.css");
-@import url("__block/video__blok.css");
+@import url("__block/video__block.css");
 
 .video {
   width: calc(100% - 256px);

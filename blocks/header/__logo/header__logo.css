@@ -1,4 +1,10 @@
-.header__logo {
-  width: 14%;
+.header__iogo {
+  max-width: 177px;
   height: auto;
+}
+
+@media screen and (max-width: 375px) {
+  .header__iogo {
+    max-width: 142px;
+  }
 }

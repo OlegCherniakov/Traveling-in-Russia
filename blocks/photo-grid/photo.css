@@ -18,6 +18,7 @@
   .photo {
     width: calc(100% - 32px);
     height: auto;
+    grid-row-gap: 8px;
   }
 }
 
