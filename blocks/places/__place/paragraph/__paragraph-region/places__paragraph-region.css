@@ -1,4 +1,4 @@
-.place__paragraph-region {
+.places__paragraph-region {
   font-size: 1.1rem;
   line-height: 1.5;
   grid-column: 2 / 3;
@@ -8,6 +8,6 @@
   object-fit: cover;
 }
 
-.place__paragraph-region:first-child {
+.places__paragraph-region:first-child {
   margin-top: 0;
 }

@@ -1,5 +1,5 @@
 @import url("__paragraph-spit/place__paragraph-spit.css");
-@import url("__paragraph-region/place__paragraph-region.css");
+@import url("__paragraph-region/places__paragraph-region.css");
 
 .places__paragraph {
   overflow: hidden;
