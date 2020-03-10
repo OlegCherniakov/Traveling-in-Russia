@@ -1,13 +1,6 @@
 @import url("__title/places__title.css");
 @import url("__website/places__place-website.css");
 @import url("__image/places__image.css");
-@import url("paragraph/places__paragraph.css");
+@import url("");
 
-.places__place {
-  max-width: 984px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-column-gap: 40px;
-  grid-row-gap: 60px;
-  margin-top: 83px;
-}
+

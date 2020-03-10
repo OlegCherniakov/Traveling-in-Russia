@@ -2,6 +2,7 @@
 @import url("__subtitle/comments__subtitle.css");
 @import url("__container/comments__container.css");
 
+
 .comments {
   display: flex;
   flex-direction: column;
@@ -9,6 +10,18 @@
   margin-top: 96px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 1279px) {
+  .comments {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .comments {
+    width: calc(100% - 108px);
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -32,20 +45,12 @@
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .comments {
     width: calc(100% - 108px);
   }
 }
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .comments {
-    width: calc(100% - 96px);
-  }
-}
 
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-  .comments {
-    width: calc(100% - 96px);
-  }
-}
+
+

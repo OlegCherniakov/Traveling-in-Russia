@@ -1,4 +1,5 @@
 @import url("../vendor/normalize.css");
+@import url("../blocks/page/page.css");
 @import url("../blocks/header/header.css");
 @import url("../blocks/lead/lead.css");
 @import url("../blocks/link/link.css");
@@ -20,24 +21,6 @@
 @import url("../blocks/container/container.css");
 @import url("../blocks/description/description.css");
 
-body{
+body {
   background-color: #2a2c2f;
 }
-
-.page {
-    display: flex;
-  flex-direction: column;
-  align-content: center;
-  padding: 0;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1440px;
-  min-width: 320px;
-  box-sizing: border-box;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
--ms-text-size-adjust: 100%;
--moz-text-size-adjust: 100%;
-}
-
-
