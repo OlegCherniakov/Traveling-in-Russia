@@ -21,25 +21,28 @@
           <a href="#" class="link header__lang">En</a>
         </div>
       </header>
-      <div class="lead">
-        <!-- Надо исправить: используйте тег section -->
+      <section class="lead">
+        <!-- Надо исправить: используйте тег section +++ corrected-->
         <h1 class="title lead__title">Путешествия по России</h1>
         <!-- Отлично! правильно выделен заголовок страницы и обозначен тегом h1 -->
         <p class="subtitle lead__subtitle">
           Настоящая страна не в выпусках новостей, а здесь.
         </p>
         <!-- Отлично! подзаголовок сделан с помощью параграфа -->
-        <img
-          src="foto/polka.jpg"
-          class="lead__image"
-          alt="kalegin-michail-179870-unsplash"
-        />
-        <p class="lead__caption">Ваша полка — верхняя</p>
+        <figure>
+          <img
+            src="foto/polka.jpg"
+            class="lead__image"
+            alt="kalegin-michail-179870-unsplash"
+          />
+          <figcaption class="lead__caption">Ваша полка — верхняя</figcaption>
+        </figure>
         <!-- Можно лучше: для изображения и его описания можете использовать тег figure
-                https://developer.mozilla.org/ru/docs/Web/HTML/Element/figure -->
-      </div>
-      <div class="intro">
-        <!-- Надо исправить: используйте тег section -->
+                https://developer.mozilla.org/ru/docs/Web/HTML/Element/figure +++corrected-->
+        <!--вопрос: но так же получается лишняя обёртка или нет?-->
+      </section>
+      <section class="intro">
+        <!-- Надо исправить: используйте тег section +++corrected-->
         <h2 class="title intro__title">Чего мы там не видели?</h2>
         <!--<h3 class="subtitle intro__subtitle">
           Зачем путешествовать по своему дому
@@ -87,9 +90,9 @@
           </li>
         </ul>
         <!-- Отлично! Вы используете в разметке семантические теги списка ul -->
-      </div>
-      <div class="photo">
-        <!-- Надо исправить: используйте тег section -->
+      </section>
+      <section class="photo">
+        <!-- Надо исправить: используйте тег section +++corrected-->
         <img
           src="foto/train.jpg"
           alt="Красивая природа России"
@@ -150,23 +153,26 @@
           alt="Красивая природа России"
           class="photo__grid"
         />
-      </div>
-      <div class="places">
-        <!-- Надо исправить: используйте тег section -->
+      </section>
+      <section class="places">
+        <!-- Надо исправить: используйте тег section +++corrected-->
         <div class="places__place">
           <h2 class="title places__title">Куршская коса</h2>
           <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <!-- Можно лучше: вместо капса лучше использовать text-transform: uppercase -->
-            <a href="http://park-kosa.ru/" class="link places__url"
+            <a
+              href="http://park-kosa.ru/"
+              target="_blank"
+              class="link places__url"
               >park-kosa.ru</a
             >
-            <!-- Можно лучше: для внешних ссылок можно добавить атрибут target="_blank" -->
+            <!-- Можно лучше: для внешних ссылок можно добавить атрибут target="_blank" +++исправил-->
           </div>
-          <img src="foto/kosa.jpg" alt="Куршская коса" class="place__image" />
-          <!-- Надо исправить: это должен быть элемент блока places  -->
+          <img src="foto/kosa.jpg" alt="Куршская коса" class="places__image" />
+          <!-- Надо исправить: это должен быть элемент блока places  +++corrected-->
 
-          <div class="paragraph">
+          <div class="places__paragraph">
             <!-- Надо исправить: это должен быть элемент блока places  -->
             <p class="text place__paragraph-region">
               <!-- Надо исправить: это должен быть элемент блока places  -->
@@ -192,12 +198,12 @@
           <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <a
-              href="https://poehali.club/na-kolskij-poluostrov-s-national-geographic-rossiya/"
+              href="https://poehali.club/na-kolskij-poluostrov-s-national-geographic-rossiya/" target="_blank"
               class="link places__url"
               >National Geographic</a
             >
           </div>
-          <img src="foto/kolsky.jpg" alt="Кольский" class="place__image" />
+          <img src="foto/kolsky.jpg" alt="Кольский" class="places__image" />
           <div class="paragraph">
             <p class="text place__paragraph-region">
               Почти весь полуостров находится за Полярным кругом. Саамская
@@ -221,12 +227,12 @@
           <div class="places__place-website">
             <p class="places__url-heading">URL</p>
             <a
-              href="https://www.facebook.com/altairegion22/"
+              href="https://www.facebook.com/altairegion22/" target="_blank"
               class="link places__url"
               >Facebook</a
             >
           </div>
-          <img src="foto/altai.jpg" alt="Алтай" class="place__image" />
+          <img src="foto/altai.jpg" alt="Алтай" class="places__image" />
           <div class="paragraph">
             <p class="text place__paragraph-region">
               Алтай — одно из красивейших мест в России. В первую очередь из-за
@@ -248,14 +254,14 @@
           <h2 class="title places__title">Зимний Байкал</h2>
           <div class="places__place-website">
             <p class="places__url-heading">URL</p>
-            <a href="https://vk.com/baikalmile" class="link places__url"
+            <a href="https://vk.com/baikalmile" target="_blank" class="link places__url"
               >https://vk.com/baikalmile</a
             >
           </div>
           <img
             src="foto/winter-baikal.jpg"
             alt="Зимний Байкал"
-            class="place__image"
+            class="places__image"
           />
           <div class="paragraph">
             <p class="text place__paragraph-region">
@@ -277,11 +283,11 @@
           <h2 class="title places__title">Карелия</h2>
           <div class="places__place-website">
             <p class="places__url-heading">URL</p>
-            <a href="http://vodlozero.ru/" class="link places__url"
+            <a href="http://vodlozero.ru/" target="_blank" class="link places__url"
               >http://vodlozero.ru/</a
             >
           </div>
-          <img src="foto/karelia.jpg" alt="Карелия" class="place__image" />
+          <img src="foto/karelia.jpg" alt="Карелия" class="places__image" />
           <div class="paragraph">
             <p class="text place__paragraph-region">
               Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу
@@ -296,21 +302,22 @@
             </p>
           </div>
         </div>
-      </div>
-      <div class="video">
-        <!-- Надо исправить: используйте тег section -->
+      </section>
+      <section class="video">
+        <!-- Надо исправить: используйте тег section +++corrected-->
         <h2 class="title video__title">В глубины Земли и в дальний космос</h2>
-        <h3 class="subtitle video__subtitle">
-          <!-- Можно лучше: используйте для подзаголовков параграфы -->
+        <p class="subtitle video__subtitle">
+          <!-- Можно лучше: используйте для подзаголовков параграфы +++corrected-->
           Видео от студии Stereotactic о местах в России, где ведутся
           фундаментальные исследования
-        </h3>
+        </p>
         <div class="block video__block">
           <a
             href="https://vimeo.com/81106671"
+            target="_blank"
             class="bloсk__item block__item_bg_kamchatka"
           >
-            <!-- Можно лучше: для внешних ссылок можно добавить атрибут target="_blank" -->
+            <!-- Можно лучше: для внешних ссылок можно добавить атрибут target="_blank" +++исправил-->
             <img
               src="foto/icon_play.svg"
               alt="Иконка Пуск"
@@ -325,7 +332,7 @@
             </div>
           </a>
           <a
-            href="https://vimeo.com/290675450"
+            href="https://vimeo.com/290675450" target="_blank"
             class="bloсk__item block__item_bg_observatory"
           >
             <img
@@ -342,7 +349,7 @@
             </div>
           </a>
         </div>
-      </div>
+      </section>
       <!--<div class="additional">
         <h2 class="title  additional__title">А также</h2>
         <h3 class="subtitle additional__subtitle">
@@ -387,16 +394,16 @@
           </div>
         </div>
       </div>-->
-      <div class="comments">
-        <!-- Надо исправить: используйте тег section -->
+      <section class="comments">
+        <!-- Надо исправить: используйте тег section +++corrected-->
         <h2 class="title comments__title">
           Фотографы, снимающие Россию
         </h2>
-        <h3 class="subtitle comments__subtitle">
+        <p class="subtitle comments__subtitle">
           Природа и люди вдохновили их работы, удостоенные наград на
           международных конкурсах
-        </h3>
-        <!-- Можно лучше: используйте для подзаголовков параграфы -->
+        </p>
+        <!-- Можно лучше: используйте для подзаголовков параграфы +++corrected-->
 
         <div class="container comments__container">
           <div class="container__comment">
@@ -409,7 +416,8 @@
               «Если вам кажется, что в России ничего не происходит, то просто
               выгляньте “наружу”…»
             </p>
-            <!-- Можно лучше: По смыслу это цитата, так что тут лучше использовать элемент blockquote. Подробнее можно почитать тут: https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote-->
+            <!-- Можно лучше: По смыслу это цитата, так что тут лучше использовать элемент blockquote. 
+              Подробнее можно почитать тут: https://developer.mozilla.org/ru/docs/Web/HTML/Element/blockquote+++ Насколько я понял из описания, элемент <blockquote> заключает в себя текст, который является цитатой. Так же у него есть атрибут cite, которого в нашем задании нет. Насколько существует необходимость заключать данную цитату в элемент <blockquote> в данном контексте? Готов исправит, но пока что не особо понимаю необходимость -->
             <p class="container__author">Виктор Лягушкин</p>
           </div>
 
@@ -441,8 +449,8 @@
             <p class="container__author">Сергей Максимишин</p>
           </div>
         </div>
-      </div>
-      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover">
+      </section>
+      <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover">
         <h2 class="title cover__title">До Байкала «на собаках»</h2>
         <p class="text cover__subtitle">
           По мотивам учебной темы о Транссибе и iframes — путешествие от столицы
@@ -518,43 +526,47 @@
         <!-- Можно лучше: для значка копирайт используйте мнемоники html
                            https://html5book.ru/specsimvoly-html
                         -->
+        <nav class="menu">
+          <ul class="footer__list">
+            <li>
+              <a
+                href="https://yandex.ru/maps/213/moscow/?ll=37.622504%2C55.753215&z=10"
+                class="link footer__link"
+                >Карты</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://yandex.ru/pogoda/moscow"
+                class="link footer__link"
+                >Погода</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://rasp.yandex.ru/?utm_source=yamain&utm_medium=popup&utm_campaign=rasp_ru"
+                class="link footer__link"
+                >Расписание</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://calendar.yandex.ru/week?uid=952628032"
+                class="link footer__link"
+                >Календарь</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://travel.yandex.ru/?utm_source=yamain&utm_medium=popup&utm_campaign=travel_ru"
+                class="link footer__link"
+                >Путешествия</a
+              >
+            </li>
+          </ul>
+        </nav>
 
-        <ul class="footer__list">
-          <li>
-            <a
-              href="https://yandex.ru/maps/213/moscow/?ll=37.622504%2C55.753215&z=10"
-              class="link footer__link"
-              >Карты</a
-            >
-          </li>
-          <li>
-            <a href="https://yandex.ru/pogoda/moscow" class="link footer__link"
-              >Погода</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://rasp.yandex.ru/?utm_source=yamain&utm_medium=popup&utm_campaign=rasp_ru"
-              class="link footer__link"
-              >Расписание</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://calendar.yandex.ru/week?uid=952628032"
-              class="link footer__link"
-              >Календарь</a
-            >
-          </li>
-          <li>
-            <a
-              href="https://travel.yandex.ru/?utm_source=yamain&utm_medium=popup&utm_campaign=travel_ru"
-              class="link footer__link"
-              >Путешествия</a
-            >
-          </li>
-        </ul>
-        <!-- Надо исправить: по смыслу эти ссылки - навигация. Оберните их в список <nav>. используйте список nav > ul > li > a -->
+        <!-- Надо исправить: по смыслу эти ссылки - навигация. Оберните их в список <nav>. используйте список nav > ul > li > a +++corrected-->
       </footer>
     </div>
   </body>
