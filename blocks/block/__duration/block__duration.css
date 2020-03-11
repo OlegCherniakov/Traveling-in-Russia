@@ -1,5 +1,5 @@
 .block__duration {
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 0.75rem;
@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 1023px) {
   .block__duration {
-    margin-top: 16px;
+    margin-top: 10px;
   }
 }
 
@@ -29,6 +29,6 @@
 
 @media screen and (max-width: 374px) {
   .block__duration {
-    margin-top: 49px;
+    margin-top: 30px;
   }
 }

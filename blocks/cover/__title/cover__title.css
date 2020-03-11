@@ -3,7 +3,7 @@
   line-height: 1;
   font-size: 4.5rem;
   text-align: center;
-  margin: 211px auto 0 auto;
+  margin: 296px auto 0 auto;
   justify-content: center;
   z-index: 1;
   position: relative;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 1023px) {
   .cover__title {
-    margin-top: 165px;
+    margin-top: 173px;
   }
 }
 
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 320px) {
   .cover__title {
-    margin-top: 64px;
+    margin-top: 40px;
     padding: 0 44px;
   }
 }
