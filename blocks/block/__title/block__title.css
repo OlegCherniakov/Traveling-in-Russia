@@ -7,44 +7,9 @@
   z-index: 3;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1023px) {
   .block__title {
     font-size: 1.5rem;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .block__title {
-    font-size: 1.5rem;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (min-width: 376px) and (max-width: 424px) {
-  .block__title {
-    font-size: 1.5rem;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .block__title {
-    font-size: 1.5rem;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .block__title {
-    font-size: 2.25rem;
-    line-height: 1.1;
-  }
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280) {
-  .block__title {
-    font-size: 2.25rem;
     line-height: 1.1;
   }
 }

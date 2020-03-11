@@ -1,6 +1,6 @@
 @import url("__paragraph-region/places__paragraph-region.css");
 
-.places__paragraph {
+.place__paragraph {
   overflow: hidden;
   max-width: 484px;
   display: flex;
@@ -8,41 +8,41 @@
 }
 
 @media screen and (max-width: 320px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 288px;
     height: auto;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 343px;
     height: auto;
   }
 }
 
 @media screen and (min-width: 376px) and (max-width: 424px) {
-  .places__paragraph {
+  .place__paragraph {
     max-width: 343px;
     height: auto;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 100%;
     height: auto;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-  .places__paragraph {
+  .place__paragraph {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280) {
-  .places__paragraph {
+  .place__paragraph {
     width: 100%;
   }
 }

@@ -1,4 +1,4 @@
-.places__paragraph-region {
+.place__paragraph-region {
   font-size: 1.1rem;
   line-height: 1.5;
   grid-column: 2 / 3;
@@ -7,13 +7,12 @@
   object-fit: cover;
 }
 
-.places__paragraph-region:first-child {
+.place__paragraph-region:first-child {
   margin-top: 0;
 }
 
-
 @media screen and (max-width: 1023px) {
-  .places__paragraph-region {
+  .place__paragraph-region {
     font-size: 1rem;
     padding: 0 1rem;
   }

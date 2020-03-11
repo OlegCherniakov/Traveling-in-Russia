@@ -2,42 +2,33 @@
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.75;
+  font-size: 0.75rem;
   line-height: 1;
   letter-spacing: 0.3em;
   color: #ffffff;
   margin-top: 94px;
 }
 
-@media screen and (max-width: 320px) {
-  .block__duration {
-    margin-top: 49px;
-    font-size: 0.75rem;
-  }
-}
-
-@media screen and (min-width: 321px) and (max-width: 375px) {
-  .block__duration {
-    margin-top: 41px;
-    font-size: 0.75rem;
-  }
-  
-}
-
-@media screen and (min-width: 376px) and (max-width: 424px) {
-  .block__duration {
-    margin-top: 41px;
-  }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .block__duration {
-    margin-top: 36px;
-  }
-}
-
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .block__duration {
     margin-top: 54px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .block__duration {
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .block__duration {
+    margin-top: 41px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .block__duration {
+    margin-top: 49px;
   }
 }
