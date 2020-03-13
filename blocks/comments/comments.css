@@ -2,7 +2,6 @@
 @import url("__subtitle/comments__subtitle.css");
 @import url("__container/comments__container.css");
 
-
 .comments {
   display: flex;
   flex-direction: column;
@@ -12,7 +11,7 @@
   margin-right: auto;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1280px) {
   .comments {
     width: calc(100% - 96px);
   }
@@ -50,7 +49,3 @@
     width: calc(100% - 108px);
   }
 }
-
-
-
-

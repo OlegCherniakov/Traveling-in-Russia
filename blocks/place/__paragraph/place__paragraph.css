@@ -1,7 +1,4 @@
-@import url("__paragraph-region/places__paragraph-region.css");
-
 .place__paragraph {
-  overflow: hidden;
   max-width: 484px;
   display: flex;
   flex-direction: column;
