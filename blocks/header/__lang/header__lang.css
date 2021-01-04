@@ -1,7 +1,11 @@
+
+
 .header__lang {
+  
   width: 30px;
+  height: 23px;
   color: white;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 1.5rem;
@@ -18,8 +22,3 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 375px) {
-  .header__lang {
-    font-size: 1.125rem;
-  }
-}

@@ -6,9 +6,3 @@
   width: 100%;
   height: auto;
 }
-
-@media screen and (max-width: 375px) {
-  .lead__image {
-    margin-top: 39px;
-  }
-}

@@ -6,7 +6,7 @@ p {
   display: flex;
   max-width: 636px;
   justify-content: start;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 10px;

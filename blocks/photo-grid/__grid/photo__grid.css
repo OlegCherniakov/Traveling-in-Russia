@@ -1,4 +1,4 @@
-.photo__grid {
-  width: 100%;
-  height: auto;
+.photo__grid{
+ max-width: 284px;
+    height: auto;
 }

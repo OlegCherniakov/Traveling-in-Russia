@@ -1,17 +1,10 @@
 .container__author {
   margin-top: 13px;
-  font-family: "Inter", Arial, sans-serif;
+  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   font-size: 0.875rem;
   line-height: 1.4;
-  color: #ffffff;
-}
 
-@media screen and (max-width: 1023px) {
-  .container__author {
-    order: 2;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  color: #ffffff;
 }

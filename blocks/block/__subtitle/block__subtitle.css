@@ -3,9 +3,3 @@
   line-height: 15px;
   margin-top: 18px;
 }
-
-@media screen and (max-width: 1279px) {
-  .block__subtitle {
-    margin-top: 0;
-  }
-}

@@ -12,3 +12,40 @@
     padding-bottom: 16px;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .block__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 424px) {
+  .block__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .block__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .block__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280) {
+  .block__item {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+/**/

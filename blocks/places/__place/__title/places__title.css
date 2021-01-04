@@ -1,4 +1,4 @@
-.place__title {
+.places__title {
   font-size: 4.5rem;
   line-height: 0.9;
   grid-column: 1 / 2;
@@ -9,51 +9,49 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__title {
+  .places__title {
     font-size: 2rem;
     line-height: 1.1;
-    margin-left: 16px;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .place__title {
+  .places__title {
     font-size: 2rem;
     line-height: 1.1;
-    margin-left: 16px;
   }
 }
 
 @media screen and (min-width: 376px) and (max-width: 424px) {
-  .place__title {
+  .places__title {
     font-size: 2rem;
     line-height: 1.1;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
-  .place__title {
+  .places__title {
     font-size: 2.6rem;
     line-height: 1;
   }
 }
 
 @media screen and (min-width: 769px) and (max-width: 900px) {
-  .place__title {
+  .places__title {
     font-size: 2.6rem;
     line-height: 1;
   }
 }
 
 @media screen and (min-width: 901px) and (max-width: 1024px) {
-  .place__title {
+  .places__title {
     font-size: 4.5rem;
     line-height: 0.9;
   }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280) {
-  .place__title {
+  .places__title {
     font-size: 4.5rem;
     line-height: 0.9;
   }

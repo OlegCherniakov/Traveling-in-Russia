@@ -1,7 +1,7 @@
 @import url("_url-heading/places__url-heading.css");
 @import url("_url/places__url.css");
 
-.place__place-website {
+.places__place-website {
   max-width: max-content;
   grid-column: 2 / 3;
   grid-row: 1 / 2;
@@ -11,19 +11,19 @@
 }
 
 @media screen and (max-width: 320px) {
-  .place__place-website {
+  .places__place-website {
     display: none;
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 375px) {
-  .place__place-website {
+  .places__place-website {
     display: none;
   }
 }
 
 @media screen and (min-width: 376px) and (max-width: 600px) {
-  .place__place-website {
+  .places__place-website {
     display: none;
   }
 }

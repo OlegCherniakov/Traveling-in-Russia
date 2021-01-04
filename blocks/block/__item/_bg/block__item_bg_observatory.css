@@ -10,8 +10,11 @@
   position: relative;
   padding: 30px;
   box-sizing: border-box;
+
   display: flex;
   flex-direction: column;
+
+  object-fit: cover;
   text-decoration: none;
   transition: all 0.3s ease;
 
@@ -23,9 +26,15 @@
     url(../../../../foto/observatory.jpg);
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .bblock__item_bg_observatory {
-    padding: 24px;
+@media screen and (max-width: 320px) {
+  .block__item_bg_observatory {
+    padding: 16px;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .block__item_bg_observatory {
+    padding: 16px;
   }
 }
 
@@ -35,8 +44,40 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .block__item_bg_observatory {
-    padding: 16px;
+    padding: 24px;
   }
 }
+
+/* background-image: url(../../../../foto/observatory.jpg);
+  border-radius: 5px;
+  max-width: 583px;
+  display: block;
+  text-decoration: none;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  opacity: 0;
+}
+
+.block__item_bg_observatory::before {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  border-radius: 5px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+
+.block__item_bg_observatory:hover::before {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.1s linear;
+  z-index: 2;
+  border-radius: 5px;
+}
+*/

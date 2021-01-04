@@ -1,6 +1,6 @@
 @import url("__title/video__title.css");
 @import url("__subtitle/video__subtitle.css");
-@import url("__block/video__block.css");
+@import url("__block/video__blok.css");
 
 .video {
   width: calc(100% - 256px);
@@ -8,20 +8,7 @@
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 102px;
-}
-
-@media screen and (min-width: 1025px) and (max-width: 1280px) {
-  .video {
-    width: calc(100% - 96px);
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .video {
-    width: calc(100% - 48px);
-    margin-top: 86px;
-  }
+  margin-top: 29px;
 }
 
 @media screen and (max-width: 320px) {
@@ -45,8 +32,20 @@
   }
 }
 
-/*@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .video {
     width: calc(100% - 48px);
   }
-}*/
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .video {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+  .video {
+    width: calc(100% - 96px);
+  }
+}
